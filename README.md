@@ -63,6 +63,12 @@ git checkout branch_name
 git checkout main
 git merge branchA
 ```
+- *Pull & Fetch*: Pull code means pulling the latest code from the remote repo to local repo. *Important* Read [this](https://www.freecodecamp.org/news/git-fetch-vs-pull/) to know the diff between pull and fetch.
+```sh
+git pull
+# or
+git fetch
+```
 
 ## Some Useful Links
 - [Github Guide](https://docs.github.com/en/get-started)
