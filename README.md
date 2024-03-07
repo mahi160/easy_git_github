@@ -40,3 +40,26 @@ cat ~/.ssh/id_ed25519.pub
 - Run `ssh -T git@github.com` in the termial. If it's connected, you will get `Hi Username` type message.
 
 Now you are all set!
+
+## How to Git!
+- *Inialize a folder*: Go into the folder, open terminal there, run `git init`.
+- *Addin your identity*: Use the below code to add. This is important because you can't commit code without it.
+```sh
+git config --global user.name "your name or username"
+git config --global user.email "your@email.com"
+# if you want user to be project vise, omit the --global, run the commands in git project.
+```
+- *Branch*: Every git repo has atleast one branch. generally it is called the _main_ branch. But what is branch? The main branch generally holds the base code, ie. stable code. Now if you want to add some feature, or develope on something, it is dangerous to work directly on main because many things can fail. So you create a _sandboxed_ entity ie branch where you can take the code from the main one, and develope on that. It won't affect the main branch at all. Unless of course you merge.
+```sh
+# create a branch
+git checkout -b branch_name
+
+# switch to another branch
+git checkout branch_name
+```
+- *Merge*: Merging means, merging the changes in a branch to other branch. Be cautious in this, because there can be _merge conflict_. Oh is it? It's a bad thing! it means same file has been in different branch at the same time. Fixing merge conflict is hell on earth!
+```sh
+# to merge branchA to main
+git checkout main
+git merge branchA
+```
