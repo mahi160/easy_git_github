@@ -63,3 +63,9 @@ git checkout branch_name
 git checkout main
 git merge branchA
 ```
+
+## Some Useful Links
+- [Github Guide](https://docs.github.com/en/get-started)
+- [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+- [50 Git Commands](https://www.freecodecamp.org/news/git-cheat-sheet/)
+- [Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
