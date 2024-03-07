@@ -1,5 +1,7 @@
 # easy_git_github
 An easy cheat sheet on git and github for beginners
+## Table of contents
+1. [What is git and github](#whatisgitandgithub)
 
 ## What is git and github?
 - Git is a version control system. What does that mean? It means i creates a history tree with all the changes done in the lifetime of the codebase. How it is done is amazing, the creater of Linux, Linus Torvalds wrote this software in just a month! There are other version control system too. But git is way more popular and industry standard.
