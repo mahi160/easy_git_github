@@ -17,7 +17,7 @@ An easy cheat sheet on git and github for beginners
 ### Install Git 
 - *Linux*: Use default package manager to install git. Many distros come with git preinstalled
 `git -v` to check if installed or not.
-- *Windows*: Install gitbash from (git)[https://git-scm.com/downloads]
+- *Windows*: Install gitbash from [git](https://git-scm.com/downloads)
 
 ### Adding SSH key
 - To generate ssh key, type `ssh-keygen -t ed25519 -C "your_email@example.com"` in the terminal and press enter. it will prompt for location (default is good) and passphrase (if you don't want, press enter)
